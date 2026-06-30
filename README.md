@@ -13,7 +13,7 @@ You can also install the appropriate version of torch-geometric according to you
 
 ### Datasets
 
-The datasets (e.g., Cora and Citeseer) are stored in the `dataset` directory.
+The dataset files for Cora, Citeseer, and other similar datasets are stored on Baidu Netdisk: [https://pan.baidu.com/s/1lmsPcE1KcCOmIlk3jyI36w?pwd=k7jc](https://pan.baidu.com/s/1lmsPcE1KcCOmIlk3jyI36w?pwd=k7jc). After downloading and extracting the files, place them into the `dataset` directory.
 
 ### Evaluation and Training
 
