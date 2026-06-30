@@ -1,0 +1,71 @@
+Cora:
+  seed: 39788
+  np_seed: 35047
+  learning_rate: 0.0005
+  num_hidden: 256
+  num_proj_hidden: 128
+  activation: 'relu'
+  base_model: 'GCNConv'
+  num_layers: 6
+  tau: 0.4
+  num_epochs_LCN: 600
+  num_epochs_deep_LCN: 1000
+  num_epochs_wide_LCN: 300
+  weight_decay: 0.00001
+  alpha: 0.2
+  beta: 10
+  gamma: 1
+
+CiteSeer:
+  seed: 38108
+  np_seed: 57033
+  learning_rate: 0.001
+  num_hidden: 512
+  num_proj_hidden: 256
+  activation: 'prelu'
+  base_model: 'GCNConv'
+  num_layers: 6
+  tau: 0.9
+  num_epochs_LCN: 200
+  num_epochs_deep_LCN: 200
+  num_epochs_wide_LCN: 100
+  weight_decay: 0.00001
+  alpha: 0.2
+  beta: 10
+  gamma: 0.5
+
+PubMed:
+  seed: 23344
+  np_seed: 921
+  learning_rate: 0.001
+  num_hidden: 512
+  num_proj_hidden: 256
+  activation: 'relu'
+  base_model: 'GCNConv'
+  num_layers: 6
+  tau: 0.7 
+  num_epochs_LCN: 1500
+  num_epochs_deep_LCN: 1500
+  num_epochs_wide_LCN: 750
+  weight_decay: 0.00001
+  alpha: 0.2
+  beta: 10
+  gamma: 1
+
+DBLP:
+  seed: 83521
+  np_seed: 323
+  learning_rate: 0.001
+  num_hidden: 512
+  num_proj_hidden: 256
+  activation: 'relu'
+  base_model: 'GCNConv'
+  num_layers: 6
+  tau: 0.7
+  num_epochs_LCN: 1000
+  num_epochs_deep_LCN: 1000
+  num_epochs_wide_LCN: 500
+  weight_decay: 0.00001
+  alpha: 0.2
+  beta: 10
+  gamma: 1
