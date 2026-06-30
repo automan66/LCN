@@ -15,6 +15,8 @@ You can also install the appropriate version of torch-geometric according to you
 
 The datasets (e.g., Cora and Citeseer) are stored in the `dataset` directory.
 
+### Evaluation and Training
+
 To reproduce the results on a specific dataset, you can directly load the corresponding pretrained checkpoint from the `checkpoints` directory and run the following commands:
 
 ```bash
